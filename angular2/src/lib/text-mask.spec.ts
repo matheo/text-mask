@@ -1,4 +1,4 @@
-import { MaskedInputDirective } from '../src/angular2TextMask'
+import { MaskedInputDirective } from './text-mask'
 
 describe('MaskedInputDirective', () => {
   it('should create an instance', () => {
