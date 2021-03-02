@@ -1,0 +1,24 @@
+{
+  "name": "@myndmanagement/text-mask",
+  "version": "11.2.0",
+  "description": "Angular 2 directive for input text masking",
+  "author": "M.K. Safi <msafi@msafi.com>",
+  "license": "UNLICENSE",
+  "homepage": "https://github.com/Mynd-Management/text-mask/tree/master/angular2/#readme",
+  "bugs": "https://github.com/Mynd-Management/text-mask/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Mynd-Management/text-mask.git",
+    "directory": "angular2"
+  },
+  "keywords": [
+    "angular",
+    "text mask",
+    "input mask",
+    "string mask",
+    "input formatting",
+    "text formatting",
+    "string formatting"
+  ],
+  "sideEffects": false
+}

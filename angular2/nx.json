@@ -1,0 +1,30 @@
+{
+  "npmScope": "myndmanagement",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*",
+    "tsconfig.base.json": "*"
+  },
+  "projects": {
+    "library": {
+      "tags": ["lib"]
+    },
+    "example": {
+      "tags": ["app"]
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/workspace/tasks-runners/default",
+      "options": {
+        "cacheableOperations": []
+      }
+    }
+  },
+  "affected": {
+    "defaultBase": "master"
+  }
+}
+
