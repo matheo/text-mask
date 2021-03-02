@@ -6,7 +6,7 @@
         id="1"
         name="phone"
         [(ngModel)]="myModel"
-        [textMask]="{mask: mask}"
+        [textMask]="{ mask: mask }"
         type="text"
         class="form-control"
       />
@@ -23,7 +23,7 @@
         id="2"
         name="phoneWithValue"
         [(ngModel)]="modelWithValue"
-        [textMask]="{mask: mask}"
+        [textMask]="{ mask: mask }"
         type="text"
         class="form-control"
       />
@@ -40,7 +40,7 @@
         id="3"
         name="phoneFormControl"
         [formControl]='formControlInput'
-        [textMask]="{mask: mask}"
+        [textMask]="{ mask: mask }"
         type="text"
         class="form-control"
       />
