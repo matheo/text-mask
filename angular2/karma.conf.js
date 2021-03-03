@@ -25,19 +25,23 @@ module.exports = function (config) {
       suppressAll: true // removes the duplicated traces
     },
     coverageReporter: {
-      dir: require('path').join(__dirname, './coverage/appName'),
+      dir: require('path').join(__dirname, './coverage/library'),
       subdir: '.',
       reporters: [
         { type: 'html' },
         { type: 'text-summary' }
       ]
     },
+    files: [
+      // global stuff
+      { pattern: 'src/lib/core/tests/globals.js', served: true, watched: false, included: true }
+    ],
     reporters: ['progress', 'kjhtml'],
     port: 9876,
     colors: true,
     logLevel: config.LOG_INFO,
     autoWatch: false,
-    browsers: ['Chrome'],
+    browsers: ['ChromeHeadless'],
     singleRun: true,
     restartOnFileChange: true
   });
