@@ -1,6 +1,6 @@
 {
   "name": "@myndmanagement/text-mask",
-  "version": "11.2.0",
+  "version": "12.2.15",
   "description": "Angular 2 directive for input text masking",
   "author": "M.K. Safi <msafi@msafi.com>",
   "license": "UNLICENSE",
