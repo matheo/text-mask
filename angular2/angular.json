@@ -10,11 +10,10 @@
       "prefix": "",
       "architect": {
         "build": {
-          "builder": "@nrwl/angular:package",
+          "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
             "tsConfig": "src/tsconfig.lib.json",
-            "project": "src/ng-package.json",
-            "buildableProjectDepsInPackageJsonType": "dependencies"
+            "project": "src/ng-package.json"
           }
         },
         "test": {
@@ -97,9 +96,6 @@
     "@schematics/angular:application": {
       "strict": true
     }
-  },
-  "cli": {
-    "defaultCollection": "@nrwl/angular"
   },
   "defaultProject": "library"
 }
