@@ -1,14 +1,14 @@
 {
-  "name": "@myndmanagement/text-mask",
-  "version": "13.1.3",
-  "description": "Angular 2 directive for input text masking",
+  "name": "@matheo/text-mask",
+  "version": "16.0.0",
+  "description": "Angular directive for input text masking",
   "author": "M.K. Safi <msafi@msafi.com>",
   "license": "UNLICENSE",
-  "homepage": "https://github.com/Mynd-Management/text-mask/tree/master/angular2/#readme",
-  "bugs": "https://github.com/Mynd-Management/text-mask/issues",
+  "homepage": "https://github.com/matheo/text-mask/tree/master/angular2/#readme",
+  "bugs": "https://github.com/matheo/text-mask/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Mynd-Management/text-mask.git",
+    "url": "https://github.com/matheo/text-mask.git",
     "directory": "angular2"
   },
   "keywords": [
