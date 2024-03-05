@@ -96,5 +96,8 @@
     "@schematics/angular:application": {
       "strict": true
     }
+  },
+  "cli": {
+    "analytics": true
   }
 }
