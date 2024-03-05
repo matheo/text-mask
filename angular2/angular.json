@@ -96,6 +96,5 @@
     "@schematics/angular:application": {
       "strict": true
     }
-  },
-  "defaultProject": "library"
+  }
 }

@@ -1,9 +1,9 @@
-import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
+import { ReactiveFormsModule, UntypedFormBuilder, UntypedFormGroup, Validators } from '@angular/forms';
 import { SpectatorDirective, createDirectiveFactory } from '@ngneat/spectator';
 import { MaskedInputDirective } from './text-mask';
 
 describe('MaskedInputDirective', () => {
-  let spectator: SpectatorDirective<MaskedInputDirective, { form: FormGroup }>;
+  let spectator: SpectatorDirective<MaskedInputDirective, { form: UntypedFormGroup }>;
 
   const createDirective = createDirectiveFactory({
     directive: MaskedInputDirective,
@@ -19,9 +19,9 @@ describe('MaskedInputDirective', () => {
       </form>
     `, {
       hostProps: {
-        form: new FormBuilder().group({
+        form: new UntypedFormBuilder().group({
           name: ['', Validators.required],
-        }) as FormGroup,
+        }) as UntypedFormGroup,
         textMask: {
           mask: [/\d/, /\d/, /\d/, '-', /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/],
           guide: false,

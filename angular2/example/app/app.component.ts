@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormControl } from '@angular/forms';
+import { UntypedFormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { FormControl } from '@angular/forms';
 export class AppComponent {
   public myModel: string;
   public modelWithValue: string;
-  public formControlInput: FormControl = new FormControl():
+  public formControlInput: UntypedFormControl = new UntypedFormControl();
   public mask: Array<string | RegExp>;
 
   constructor() {
