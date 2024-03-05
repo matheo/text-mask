@@ -1,6 +1,6 @@
 {
   "name": "@matheo/text-mask",
-  "version": "16.0.0",
+  "version": "17.0.0",
   "description": "Angular directive for input text masking",
   "author": "M.K. Safi <msafi@msafi.com>",
   "license": "UNLICENSE",
